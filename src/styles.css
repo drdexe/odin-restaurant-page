@@ -13,7 +13,7 @@ header {
   padding: 1rem;
 }
 
-h1 {
+header > h1 {
   font-family: "Brush Script MT", cursive;
   font-size: clamp(2rem, 5vw, 4rem);
   text-align: center;
@@ -58,4 +58,24 @@ nav > button:hover {
 
 .home > p {
   text-align: justify;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.item {
+  width: min(100vw - 2rem, 500px);
+  text-align: center;
+  border: .5rem solid goldenrod;
+  border-radius: .5rem;
+  padding: .5rem;
+}
+
+.item > img {
+  width: 100%;
 }
