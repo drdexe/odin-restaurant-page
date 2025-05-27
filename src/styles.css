@@ -13,6 +13,12 @@ header {
   padding: 1rem;
 }
 
+h1 {
+  font-family: "Brush Script MT", cursive;
+  font-size: clamp(2rem, 5vw, 4rem);
+  text-align: center;
+}
+
 nav {
   display: flex;
   justify-content: center;
@@ -21,7 +27,7 @@ nav {
 
 nav > button {
   font: inherit;
-  font-size: 2rem;
+  font-size: clamp(1rem, 2vw, 2rem);
   color: black;
   background: none;
   border: none;
@@ -30,4 +36,26 @@ nav > button {
 
 nav > button:hover {
   border-bottom: 4px solid goldenrod;
+}
+
+#content {
+  display: grid;
+  place-items: center;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+  width: min(100vw, 1000px);
+}
+
+.home > img {
+  border: 1rem solid goldenrod;
+  border-radius: 1rem;
+}
+
+.home > p {
+  text-align: justify;
 }
