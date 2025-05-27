@@ -79,3 +79,25 @@ nav > button:hover {
 .item > img {
   width: 100%;
 }
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.owner {
+  width: min(100vw - 2rem, 750px);
+  border: .5rem solid goldenrod;
+}
+
+.owner > img {
+  width: 100%;
+}
+
+.owner > h2,
+.owner > p {
+  padding: 1rem;
+}

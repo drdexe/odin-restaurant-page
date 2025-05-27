@@ -1,6 +1,7 @@
 import "./styles.css";
 import home from "./home.js";
 import menu from "./menu.js";
+import contact from "./contact.js"
 
 home();
 
@@ -13,6 +14,9 @@ document.querySelector("nav").addEventListener("click", e => {
         break;
       case "menu":
         menu();
+        break;
+      case "contact":
+        contact();
         break;
     }
   }
